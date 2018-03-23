@@ -97,8 +97,8 @@ class PassFailDialog(object):
     @ConsoleIO()
     def show(self):
         possible = {
-            'p': False,
-            'f': True
+            'f': False,
+            'p': True
         }
         show_message(self.message)
         while True:
